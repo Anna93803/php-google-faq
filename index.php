@@ -111,9 +111,9 @@ $faqList = [
 
                         echo "<h2>" . $faq["titolo"] . "</h2>";
 
-                        foreach($faq["paragrafi"] as $frase) {
+                        foreach($faq["paragrafo"] as $frase) {
                             
-                            echo "<p>" . $frase["paragrafi"] . "</p>";
+                            echo "<p>" . $frase["paragrafo"] . "</p>";
                         }
                     }?>
                 </div>
