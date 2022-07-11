@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #5f6368;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    padding: .8125rem;
+}
+
+header nav {
+    height: 5.25rem;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .col {
+    display: flex;
+    align-items: center;
+}
+
+.logo-google img {
+    vertical-align: bottom;
+}
+
+.termini span {
+    font-size: 1.375rem;
+    padding-left: .625rem;
+    color: var(--color-text);
+}
+
+.grid {
+    padding-right: .9375rem;
+}
+
+.user {
+    width: 2.5rem;
+}
+
+.user img {
+    width: 100%;
+}
+
+.link {
+    padding-top: 1.25rem;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link li {
+    list-style: none;
+    padding-right:  1.9375rem;
+}
+
+.link a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.0625rem;
+    color: var(--color-text);
+}
+
+.link li:last-child {
+    border-bottom: .1875rem solid #3367d6;
+    padding-bottom: 0.7rem;
+}
+
+/* MAIN */
+main {
+    border-top: .0625rem solid #b0b2b5;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 3.125rem auto;
+}
