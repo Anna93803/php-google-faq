@@ -15,6 +15,9 @@ body {
 /* HEADER */
 header {
     padding: .8125rem;
+    position: fixed;
+    width: 100%;
+    background: white;
 }
 
 header nav {
@@ -56,6 +59,7 @@ header .col {
 
 .link {
     padding-top: 1.25rem;
+    border-bottom: .0625rem solid #b0b2b5;
 }
 
 .link ul {
@@ -70,8 +74,12 @@ header .col {
 .link a {
     text-decoration: none;
     display: block;
-    font-size: 1.0625rem;
+    font-size: .9375rem;
     color: var(--color-text);
+}
+
+.link .active {
+    color: #3367d6;
 }
 
 .link li:last-child {
@@ -81,10 +89,56 @@ header .col {
 
 /* MAIN */
 main {
-    border-top: .0625rem solid #b0b2b5;
+    padding-top: 6.25rem;
 }
 
 .container {
     max-width: 75rem;
-    margin: 3.125rem auto;
+    margin: 7.125rem auto;
+}
+
+h2 {
+    padding-bottom: 2.5rem;
+    color: #615f5f;
+}
+
+h4 {
+    padding-bottom: 1.25rem;
+}
+
+p {
+    padding-bottom: 1.25rem;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(45, 79, 233);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #f5f5f5;
+    padding: .9375rem 0;
+}
+
+.container-small {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+    padding-right: .5rem;
+    font-size: .75rem;
 }
